@@ -26,17 +26,3 @@ rules:
   - RULE-SET,my-direct,DIRECT
 ```
 
-> 国内网络拉取 GitHub raw 可能失败，可将 `url` 替换为加速镜像，例如：
-> `https://ghproxy.net/https://raw.githubusercontent.com/eivgogo/mihomo-rules/main/rules/direct.yaml`
-
-## 维护规则
-
-直接编辑 `rules/direct.yaml` 的 `payload` 列表即可：
-
-```yaml
-payload:
-  - "+.example.com" # example.com 及其所有子域名直连
-  - "example.org" # 仅精确匹配 example.org
-```
-
-提交并推送到 `main` 分支后，客户端会在 `interval` 到期时自动更新。
