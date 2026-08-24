@@ -1,0 +1,10 @@
+# 自定义直连（DIRECT）规则集
+# behavior: domain 格式说明：
+#   +.example.com  匹配 example.com 及其所有子域名
+#   example.com    仅精确匹配该域名
+payload:
+  # Cloudflare / Argo Tunnel 相关
+  - "+.argotunnel.com"
+  - "+.cloudflare.com"
+  # AGEFANS
+  - "+.agedm.io"
