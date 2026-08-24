@@ -2,7 +2,7 @@
 #   +.example.com  匹配 example.com 及其所有子域名
 #   example.com    仅精确匹配该域名
 payload:
-  - "+.argotunnel.com"
-  - "+.cloudflare.com"
-  - "+.agedm.io"
-  - "+.eivgogo.com"
+  - '+.argotunnel.com'
+  - '+.cloudflare.com'
+  - '+.agedm.io'
+  - '+.eivgogo.com'
